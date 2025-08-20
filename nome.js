@@ -10,5 +10,6 @@ rl.question("Qual é o seu nome? ", function(nome) {
 
   rl.question("Quantos anos você tem? ", function(idade) {
     console.log("Você tem " + idade + " anos!");
+    rl.close(); 
   });
 });
